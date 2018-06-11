@@ -14,11 +14,11 @@ new (class {
         };
         const buttonsMFuncs = {
             "MC": ()=> {
-                this.display = this.m;
-            },
-            "MR": ()=> {
                 this.m=0;
                 this.display = 0;
+            },
+            "MR": ()=> {
+                this.display = this.m;
             },
             "M+": ()=>{
                 this.m += this.display;
